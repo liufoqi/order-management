@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 import './test.less';
-
+import {Button,Popover,Card} from 'antd'
+const content = (
+    <div>
+        <p>Content</p>
+        <p>Content</p>
+    </div>
+);
 class App extends Component {
+
   render() {
     return (
       <div className="App">
-       <h1>我是一个react项目</h1>
+          {this.props.children}
       </div>
     );
   }
