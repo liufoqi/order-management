@@ -1,0 +1,55 @@
+.Header{
+    background: #f1f1;
+
+}
+ .HeaderTop{
+     padding: 10px 60px 5px;
+     border-bottom: 1px solid yellow ;
+ }
+.detail{
+    margin-top: 30px;
+    font-size: 18px;
+    color: black;
+
+}
+.username{
+    color: green;
+    padding-left:5px;
+}
+.exit{
+    margin-left: 15px;
+    color: darkviolet;
+}
+.weatherTime{
+    position: relative;
+    font-size: 14px;
+    padding-right:18px;
+    line-height: 40px;
+    height: 40px;
+    color: green;
+.weather{
+    font-weight: 700;
+    margin-left: 10px;
+}
+.time{
+    font-weight: 400;
+    }
+}
+
+.breadcrumb {
+    position: relative;
+    width: 12.5%;
+    font-size: 18px;
+    text-align: center;
+    &::after{
+        content: '';
+        position: absolute;
+        left:50%;
+        bottom: -24px;
+        transform: translateX(-50%);
+        border: 12px solid transparent;
+        border-top: 12px solid #fff;
+        width: 0;
+        height: 0;
+    }
+}

@@ -1,0 +1,14 @@
+.fll{
+  float: left;
+}
+.flr{
+  float: right;
+}
+.clearFix{
+  &::after{
+    content:'';
+    display: block;
+    clear: both;
+    visibility: hidden;
+  }
+}
